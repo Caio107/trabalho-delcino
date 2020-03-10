@@ -78,8 +78,8 @@ class Tabela:  #classe usada para construir o jogo
 
     def carregaImagens(self): #carrega as imagens do disco para atributos(variáveis)
         self.fundo = pygame.image.load("sok.png") #carrega imagen de fundo        
-        self.boneco = pygame.image.load("boneco.png") 
-        self.caixa = pygame.image.load("caixa.png") 
+        self.boneco = pygame.image.load("Doguinho.png") 
+        self.caixa = pygame.image.load("PotedeComida.png") 
         
         
     def criaEstruturaDados(self): 
